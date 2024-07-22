@@ -1,8 +1,8 @@
-player.onChat("DelWorld", function () {
-    blocks.fill(
+player.onChat("WorldDel", function () {
+    shapes.sphere(
     AIR,
-    pos(1000, 100, 1000),
-    pos(10000, 0, 10000),
-    FillOperation.Replace
+    pos(0, 0, 0),
+    10000,
+    ShapeOperation.Replace
     )
 })
